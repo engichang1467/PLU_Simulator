@@ -2,9 +2,9 @@ from app import db
 import pandas as pd
 import datetime as dt
 from sqlalchemy.exc import *
+from constants.Constants import *
 from exceptions.Exception import *
 from sqlalchemy import func, distinct, text
-from constants.Constants import *
 
 class PLUSim(db.Model):
 
