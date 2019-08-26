@@ -1,0 +1,142 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- https://www.youtube.com/watch?v=uLr7yjg3EuQ -->
+<div class="container">
+    <h1>File Input</h1>
+    <form id="dropFileForm" method="POST" action="" enctype="multipart/form-data"> 
+        <input type="file" class="file-upload" id="fileInput" name="inputFile" onchange="addFiles(event)">
+  
+        <label for="fileInput" id="fileLabel"
+        ondragover="overrideDefault(event); fileHover();"
+        ondragenter="overrideDefault(event); fileHover();"
+        ondragleave="overrideDefault(event); fileHoverEnd();"
+        ondrop="overrideDefault(event); fileHoverEnd();
+                addFiles(event);">
+          <!-- <i class="fa fa-download fa-5x"></i> -->
+          <i class="fas fa-cloud-upload-alt fa-10x"></i>
+          <br>
+          <span id="fileLabelText">
+            Drag your files here or click in this area
+          </span>
+          
+        </label>
+        <input type="submit" value="Upload" class="uploadButton">
+    </form>
+  </div>
+  
+  {% for message in get_flashed_messages() %}
+    {{ message }}
+  
+  {% endfor %}
+
+  <script>
+    var dropFileForm = document.getElementById("dropFileForm");
+    var fileLabelText = document.getElementById("fileLabelText");
+    var droppedFiles;
+    
+    function overrideDefault(event)
+    {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+    
+    function fileHover()
+    {
+      dropFileForm.classList.add("fileHover");
+    }
+    
+    function fileHoverEnd()
+    {
+      dropFileForm.classList.remove("fileHover");
+    }
+    
+    function addFiles(event)
+    {
+      droppedFiles = event.target.files || event.dataTransfer.files;
+      showFiles(droppedFiles);
+    }
+    
+    function showFiles(files)
+    {
+      if (files.length > 1)
+      {
+        fileLabelText.innerText = files.length + " files selected";
+      }
+      else
+      {
+        fileLabelText.innerText = files[0].name;
+      }
+    }
+</script>
+    
+    
+<style>
+    #dropFileForm
+    {
+      margin:16px;
+      text-align:center;
+      border-radius:8px;
+      overflow:hidden;
+      transition: .5s;
+    }
+    
+    #dropFileForm #fileLabel
+    {
+      background-color: lightblue;/* rgba(0,255,0,0.5); */
+      display: block;
+      padding: 16px;
+      position: relative;
+      cursor: pointer;
+    }
+    
+    #dropFileForm #fileInput
+    {
+      display: none;  
+    }
+    
+    #dropFileForm #fileLabel:after, 
+    #dropFileForm #fileLabel:before
+    {
+      position: absolute;
+      content: "";
+      top:0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #fff;
+      z-index: -2;
+      border-radius: 8px 8px 0 0;
+    } 
+    
+    #dropFileForm #fileLabel:before
+    {
+      z-index: -1;
+      background: repeating-linear-gradient(45deg, transparent, transparent 5%, black 5%, black 10%);
+      opacity: 0;
+      transition: .5s;
+    }
+    
+    #dropFileForm.fileHover #fileLabel:before 
+    {
+      opacity: .25;
+    }
+    
+    #dropFileForm .uploadButton
+    {
+      border: 0;
+      outline: 0;
+      width: 100%;
+      padding: 8px;
+      background-color: blue;/* limegreen;*/
+      color: #fff;
+      cursor: pointer;
+    }
+    
+    #dropFileForm.fileHover
+    {
+      box-shadow: 0 0 16px blue;/* limegreen; */
+    }
+</style>  
+
+{% endblock %}
