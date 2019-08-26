@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+
+<form action="/searchPLU" method="POST">
+    <h1>Search PLU</h1>
+
+    <p>
+        <h3>Search</h3>
+        {{ form.search(size=16) }}
+    </p>
+
+    <p>{{ form.submit }}</p>
+
+</form>
+
+{% for message in get_flashed_messages() %}
+    {{ message }}
+{% endfor %}
+
+
+{% endblock %}
