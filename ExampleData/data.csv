@@ -1,0 +1,348 @@
+plu,name
+1,Gala
+3,Granny Smith
+4,Fuji
+7,Ginger Gold
+8,Red Delicious
+9,Braeburn
+11,Local Gala
+15,Local Macintosh
+16,Local Spartan
+20,Local Ambrosia
+22,Pink Lady
+26,Sweet Orrin
+28,Pacific Rose
+31,Envy
+40,Premium Cherries
+41,large Cherries
+42,Rainer Cherries
+46,Cherries Domestic
+47,local Rasberries
+48,Gooseberries
+49,Blueberries (LB)
+50,Blueberries (@)
+51,Rasberries
+52,Blackberries (@)
+53,Blackberries (LB)
+55,2lbs box Strawberries
+56,1lbs box Straberries
+57,Local Strawberries
+59,1lb Discoll Strawberries
+63,Discoll Loose Strawberries
+68,Satsuma
+70,Murrott
+72,5lbs Chinese box
+73,Baby sugar
+74,Japanese Box
+75,Korean Loose
+81,Loose Mandarin
+83,Orri
+85,Nadorcott
+89,Gold Nugget
+100,Black Globe Seeded
+101,Black Seedless
+102,Green Grapes
+103,Red Grapes
+105,Coronation
+106,Green Champagne
+107,Natural Thompson
+111,Muscat
+113,Sweet Celebration
+121,SM Navel
+122,LG Navel
+123,XLG Navel
+127,Cara Cara Orange
+128,Blood Orange
+130,Heirloom Orange
+133,XLG Blue Jay
+150,Clementine Stem & Leaf
+151,Honey Tangerine
+152,Minneola
+160,SM Grapefruit
+161,LG Pink
+164,Pomelo
+181,Yellow Mini Watermelon
+186,Hami Melon
+190,Cantaloupe (LB)
+191,Cantaloupe (@)
+192,Cut Cantaloupe
+193,Honey Dew
+194,Cut Honey Dew
+197,Seedless Watermelon (LB)
+198,Cut Seedless Watermelon
+199,Mini Watermelon
+204,Dragon Fruit
+209,Jumbo Avocado
+210,Avocado
+213,Figs Brown
+214,Kiwi
+215,Golden Kiwi
+217,Tree-Ripen Papaya
+218,Premium Papaya (Hawaii)
+219,Caribbean Papaya
+220,Dried Dates
+221,Pineapple
+222,Cut Pineapple
+223,Coconut
+224,Jumbo Pomegranate
+225,Pomegranate
+226,Star Fruit
+227,Lychee Nuts
+228,Longan
+229,Kumquat
+230,Manila Mango (@)
+231,Haden Mango
+233,Ataulfo Mango
+234,Manila Mango
+235,Yellow Passion Fruit
+238,Guava
+239,Baby Guava
+240,Anjou Pear
+241,Bartlett Pear
+242,Bosc Pear
+243,Korean Pear
+245,Korean Pear (@)
+253,Forelle Pear
+248,Asian Pear
+249,Fragrant Pear
+261,Fuyu Persimmon
+262,LG Fuyu Persimmon
+264,LG Hachiya Persimmon
+265,Vanilla Persimmon (@)
+267,Vanilla Persimmon (LB)
+272,LG Black Plum
+275,LG Red Plum
+277,Golden Plum
+278,Prune Plum
+279,President Plum
+281,Pluot Plum
+282,Sugar Plum
+300,Local Nectarines
+301,White Nectarine
+302,LG Yellow Nectarines
+303,Jumbo Yellow Nectarines
+304,Local Peaches
+305,LG Yellow Peaches
+306,LG Peaches
+307,White Peaches
+308,Local Apricots
+309,Apricots
+311,Donut Peaches
+313,Peach Pie
+331,Banana
+333,Baby Banana
+334,Baby Lemon
+336,Lemon
+338,Lime
+339,Key Lime
+500,Broad Beans
+501,Green Beans
+503,Yellow Beans
+529,Mini Cucumber (Bag)
+531,LG Long English Cucumber
+532,Long English Cucumber
+533,Field Cucumber
+537,Mini Cucumber
+551,Cauliflower (@)
+553,LG Cauliflower in Cello (@)
+554,Cut Cauliflower
+560,Eggplant
+561,Long Eggplant
+562,Local Eggplant
+571,Endlive
+572,Iceberg Lettuce
+573,Green Leaf Lettuce
+574,Red Leaf Lettuce
+575,Romaine Lettuce
+577,Butter Lettuce
+580,Romaine Heart in Bag
+600,Organic Jumbo White Mushroom
+601,Oyster Mushroom
+602,King Oyster Mushroom
+603,Organic Portabella Mushroom
+604,Organic Crimini Mushroom
+605,Flower Shitake Mushroom
+606,Enoki Mushroom
+607,Chanterelle Mushroom
+608,Flower Shitake Mushroom
+609,Organic Medium White Mushroom
+611,Beet (Bulk)
+612,Beet (Bunch)
+613,Sanp Top Carrots
+614,Bunch Carrots
+615,1 LB Baby Carrots
+616,Celery Roots
+617,Jicama
+618,Kolrabi
+619,Lo Bok/ Daikon
+621,Parsnip
+622,Radish
+625,Brown Turnip
+626,White Turnip
+627,Yam
+630,Carrots - 2 lbs. Bag
+637,Golden Sweet Yam
+638,Sunchoke
+640,3 LB Bag Onions
+641,Cooking Onion
+642,Green Onions
+643,Leeks
+644,Red Onions
+645,Shallots
+646,Pearl Onion
+647,White Onion
+648,Sweet Onion
+650,BBQ Onions
+659,Fingerling Potatoes
+660,5 LBS Bag Russet Potatoes
+670,Russet Pototoes (Baker)
+672,10 LBS. Bag Russet Pototoes
+673,White Nugget Potatoes
+674,Red Potatoes
+675,Sweet Potatoes
+676,White Potatoes
+678,Yukon Potatoes
+680,Alfalfa Sprouts
+689,Red Kale
+691,Artichoke
+692,Belgian Endive
+695,Green Kale
+697,Okra
+699,Radicchio
+700,Rhubarb
+702,Soft Tofu (Blue box)
+703,Soft Tofu (Red box)
+704,Wintermelon
+705,Chayote
+706,Red Chard
+709,Black Kale
+710,Asparagus
+712,Chesnuts
+720,Cut Banana Squash
+721,Buttercup Squash
+721,Butternut Squash
+723,Acorn Squash
+724,Spaghetti Squash
+725,Shark Fin Squash
+726,Assorted Squash
+727,Zucchini
+728,Yellow Zucchini
+740,Assorted Herbs
+741,Hawaii Sweet Basil
+744,Jumbo Garlic
+745,Loose Garlic
+747,Chinese Ginger
+750,Anise (Fennel)
+751,Basil - in Clamshell
+753,Cilantro
+754,Baby Dill
+756,Packed Garlic
+757,Ginger Root
+759,Thai Basil
+760,Mint - in Clamshell
+761,Parsley
+762,Italian Parsley
+763,Rosemary
+764,Thyme
+765,Argula
+766,Lemon Grass
+767,Sage
+768,Tarragon
+769,Oregano
+770,Snow Peas
+771,English Peas
+772,Snap Peas
+800,Chop Suey/Mixed Veggies
+802,Fruit Plate
+806,Colesaw
+821,Corn the Cob
+822,Corn - Pack
+827,Walnuts
+830,Sweet Kale Salad Kit
+860,Green Pepper
+861,Serrano Pepper
+862,Red Field Pepper
+863,Yellow Field Pepper
+864,Orange Field Pepper
+865,Red Hot House Pepper
+866,Jalapeno Pepper
+867,Green Hot House Peppers
+868,Yellow Hot House Pepper
+869,Orange Hot House Pepper
+870,Sweet Tooth Pepper
+872,Sweet Tooth Pepper (LB)
+875,Assorted Mini Sweet Peppers
+880,Baby Bok Choy
+881,Green Bok Choy
+882,Yue Choy
+883,Gai Lan
+884,Spinach
+885,Watercress
+887,Choy Mue
+890,Shanghai Choy Mue
+906,Broccoli Crown
+907,Broccoli
+909,Broccoli Salad
+918,Celery (LB)
+919,Celery Stalks
+940,Brussel Sprouts
+941,Taiwanese Cabbage
+942,Green Cabbage
+943,Red Cabbage
+944,Savoy Cabbage
+945,Sui Choy
+951,Strawberry Tomatoes
+952,Campari Red Tomatoes (Box)
+957,Grape Tomatoes
+959,Grape Heirloom Medley Tomatoes
+970,Heirloom Medley Tomatoes
+972,Field Tomatoes
+973,Hot House Beefsteak Tomatoes
+975,Red On Vine Tomatoes
+981,Cherry Tomatoes
+986,Grape Tomatoes
+987,Roma Tomatoes
+991,$1.00 Reduced items
+992,$1.50 Reduced Items
+993,$2.00 Reduce items
+1001,Organic Gala Apple
+1020,Organic Ambrosia Apple - BC
+1050,Organic Blueberries
+1056,Organic Strawberries (@)
+1072,Organic Mandarins
+1200,Organic Rasin Snack Pack Flame
+1201,15 oz - Organic Thompson Raisins
+1202,15 oz - Organic Flame Raisins
+1203,15 oz - Black Raisins
+1204,Snack Pack Thompson Raisins
+1206,Snack Pack Black Raisins
+1222,Organic Dried Dates - 18 x 18 oz
+1331,Organic Bananas
+1600,Organic Medium White Mushroom
+1613,Organic Rainbow Carrots (Bag)
+1630,2 LBS Organic Carrots
+1643,Organic Leeks
+1757,Organic Ginger
+1758,Organic Tumeric Root
+2900,Plastic Bag
+3000,Reusable Bag
+4218,Papaya Hawaii Boat
+5008,Deluxe Fruit Basket
+5009,Delightful Fruit Basket
+5011,Fruit Basket - One Size Fits All
+5012,Fruit Basket
+5103,Dried Cranberries
+5533,Counter Promotion
+7050,Jumbo Box Blueberries
+7248,Asain Pears (@)
+7334,Lemons (Bag)
+7336,Baby Lemons (Bag)
+7501,French Green Beans
+7666,Tri-Colour Nugget Potatoes
+7671,Baby Boomer Yellow Potatoes (Bag)
+7770,Snow Peas (Bag)
+7772,Snap Peas (Bag)
+7814,Spinach 17 oz (Bag)
+8210,Avocadoes (Bag)
+8221,Whole Pineapples
+8681,Bean Sprouts
