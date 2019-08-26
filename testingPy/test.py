@@ -12,7 +12,9 @@ class Everything(object):
 
     @staticmethod
     def clear():
-        clear = os.system('clear')
+            clear = os.system('clr')
+            clear2 = os.system('clear')
+            return clear or clear2
 
 
 '''
